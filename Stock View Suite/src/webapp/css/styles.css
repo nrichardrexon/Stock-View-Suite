@@ -1,0 +1,40 @@
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e90ff; /* Dodger Blue */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #1e90ff; /* Dodger Blue */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #1c86ee; /* Darker Blue */
+}
+
+#product-list {
+    margin-top: 20px;
+}
